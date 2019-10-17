@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "description": "Clone this repo and add Gulp tasks as set out in the course activity.",
   "main": "blog.js",
-  "dependencies": {},
+  "dependencies": {
+    "run-sequence": "^2.2.1",
+    "browser-sync": "^2.26.7"
+  },
   "devDependencies": {
     "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",
-    "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-jshint": "^2.1.0",
-    "jshint": "^2.10.2"
+    "gulp-uglify": "^3.0.2",
+    "jshint": "^2.10.2",
+    "gulp": "^3.9.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
